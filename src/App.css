@@ -9,7 +9,14 @@
   width: 100vw;
   overflow: hidden;
 }
-
+#example-scanning-overlay{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #example-scanning-overlay.hidden {
   display: none;
 }

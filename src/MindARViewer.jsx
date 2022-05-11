@@ -18,11 +18,11 @@ function MindARViewer(props) {
 
   return (
     <>
-      <div id="example-scanning-overlay;" className="hidden">
+      <div id="example-scanning-overlay" className="hidden">
         <Loading type="points" />
       </div>
       <a-scene
-        mindar-image="uiScanning: #example-scanning-overlay; imageTargetSrc: ./targets.mind"
+        mindar-image="uiLoading: #example-scanning-overlay;uiScanning: no; imageTargetSrc: ./targets.mind"
         color-space="sRGB"
         renderer="colorManagement: true, physicallyCorrectLights"
         vr-mode-ui="enabled: false"
