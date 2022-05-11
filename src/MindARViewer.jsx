@@ -61,6 +61,7 @@ function MindARViewer(props) {
   }, []);
 
   const URL2 = process.env.PUBLIC_URL + "Models/scene1.glb";
+  const URL3 = process.env.PUBLIC_URL + "Models/button.glb";
 
   return (
     <>
@@ -84,7 +85,7 @@ function MindARViewer(props) {
       >
         <a-assets>
           <a-asset-item id="bearModel" src={URL2}></a-asset-item>
-          <a-asset-item id="boton" src={boton}></a-asset-item>
+          <a-asset-item id="boton" src={URL3}></a-asset-item>
         </a-assets>
 
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -96,13 +97,12 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
-          <a-cylinder
-            position="0 0 0"
+          <a-gltf-model
             rotation="0 0 0 "
-            radius="0.15"
-            height="0.01"
-            material="shader: flat; src: #boton"
-          ></a-cylinder>
+            position="2 0 0"
+            scale="0.025 0.025 0.025"
+            src="#boton"
+          />
         </a-entity>
         <a-entity ref={sceneRef2} mindar-image-target="targetIndex: 1">
           <a-gltf-model
@@ -111,13 +111,12 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
-          <a-cylinder
-            position="0 0 0"
+          <a-gltf-model
             rotation="0 0 0 "
-            radius="0.15"
-            height="0.01"
-            material="shader: flat; src: #boton"
-          ></a-cylinder>
+            position="2 0 0"
+            scale="0.025 0.025 0.025"
+            src="#boton"
+          />
         </a-entity>
         <a-entity ref={sceneRef3} mindar-image-target="targetIndex: 2">
           <a-gltf-model
@@ -126,13 +125,12 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
-          <a-cylinder
-            position="0 0 0"
+          <a-gltf-model
             rotation="0 0 0 "
-            radius="0.15"
-            height="0.01"
-            material="shader: flat; src: #boton"
-          ></a-cylinder>
+            position="2 0 0"
+            scale="0.025 0.025 0.025"
+            src="#boton"
+          />
         </a-entity>
         <a-entity ref={sceneRef4} mindar-image-target="targetIndex: 3">
           <a-gltf-model
@@ -141,13 +139,12 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
-          <a-cylinder
-            position="0 0 0"
+          <a-gltf-model
             rotation="0 0 0 "
-            radius="0.15"
-            height="0.01"
-            material="shader: flat; src: #boton"
-          ></a-cylinder>
+            position="2 0 0"
+            scale="0.025 0.025 0.025"
+            src="#boton"
+          />
         </a-entity>
         <a-entity ref={sceneRef5} mindar-image-target="targetIndex: 4">
           <a-gltf-model
@@ -156,13 +153,12 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
-          <a-cylinder
-            position="0 0 0"
+          <a-gltf-model
             rotation="0 0 0 "
-            radius="0.15"
-            height="0.01"
-            material="shader: flat; src: #boton"
-          ></a-cylinder>
+            position="2 0 0"
+            scale="0.025 0.025 0.025"
+            src="#boton"
+          />
         </a-entity>
         <a-entity ref={sceneRef6} mindar-image-target="targetIndex: 5">
           <a-gltf-model
@@ -171,14 +167,11 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
-          <a-entity
-            id="cylinder-train-icon"
-            cylinder-train-icon-listener
-            cursor="fuse: true; fuseTimeout: 500"
-            position="0.25 0.1 0.5"
-            rotation="-90 90 -90"
-            geometry="primitive: cylinder; height: 0.1; radius: 0.15"
-            material="shader: flat; src: #boton"
+          <a-gltf-model
+            rotation="0 0 0 "
+            position="2 0 0"
+            scale="0.025 0.025 0.025"
+            src="#boton"
           />
         </a-entity>
       </a-scene>
