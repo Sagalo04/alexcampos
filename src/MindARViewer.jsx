@@ -11,6 +11,7 @@ function MindARViewer(props) {
   const sceneRef3 = useRef();
   const sceneRef4 = useRef();
   const sceneRef5 = useRef();
+  const sceneRef6 = useRef();
 
   useEffect(() => {
     const sceneEl = sceneRef.current;
@@ -18,6 +19,7 @@ function MindARViewer(props) {
     const sceneEl3 = sceneRef3.current;
     const sceneEl4 = sceneRef4.current;
     const sceneEl5 = sceneRef5.current;
+    const sceneEl6 = sceneRef6.current;
 
     sceneEl.addEventListener("targetFound", () => {
       SetisBtn(true);
@@ -32,6 +34,9 @@ function MindARViewer(props) {
       SetisBtn(true);
     });
     sceneEl5.addEventListener("targetFound", () => {
+      SetisBtn(true);
+    });
+    sceneEl6.addEventListener("targetFound", () => {
       SetisBtn(true);
     });
 
@@ -50,6 +55,9 @@ function MindARViewer(props) {
     sceneEl5.addEventListener("targetLost", () => {
       SetisBtn(false);
     });
+    sceneEl6.addEventListener("targetLost", () => {
+      SetisBtn(false);
+    });
   }, []);
 
   const URL2 = process.env.PUBLIC_URL + "Models/scene1.glb";
@@ -58,7 +66,6 @@ function MindARViewer(props) {
     <>
       <div id="example-scanning-overlay" className="hidden">
         <Loading type="points" />
-        Cargando
       </div>
       {isBtn ? (
         <div className="buttonContainer">
@@ -114,6 +121,14 @@ function MindARViewer(props) {
           />
         </a-entity>
         <a-entity ref={sceneRef5} mindar-image-target="targetIndex: 4">
+          <a-gltf-model
+            rotation="0 0 0 "
+            position="0 -0.25 0"
+            scale="0.025 0.025 0.025"
+            src="#bearModel"
+          />
+        </a-entity>
+        <a-entity ref={sceneRef6} mindar-image-target="targetIndex: 5">
           <a-gltf-model
             rotation="0 0 0 "
             position="0 -0.25 0"
