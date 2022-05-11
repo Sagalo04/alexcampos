@@ -38,7 +38,7 @@ function MindARViewer(props) {
     });
   }, []);
 
-  const URL2 = process.env.PUBLIC_URL + "Models/seb.glb";
+  const URL2 = process.env.PUBLIC_URL + "Models/sep.glb";
   const URL3 = process.env.PUBLIC_URL + "Models/button.glb";
 
   const cilinder = (
