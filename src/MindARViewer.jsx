@@ -52,7 +52,7 @@ function MindARViewer(props) {
     });
   }, []);
 
-  const URL2 = process.env.PUBLIC_URL + "finalscene.glb";
+  const URL2 = process.env.PUBLIC_URL + "Models/scene.gltf";
 
   return (
     <>
