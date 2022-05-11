@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "mind-ar/dist/mindar-image.prod.js";
+import "aframe";
+import "mind-ar/dist/mindar-image-aframe.prod.js";
+import "./App.css";
+import MindARViewer from "./MindARViewer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <MindARViewer />
+        <video></video>
+      </div>
     </div>
   );
 }
