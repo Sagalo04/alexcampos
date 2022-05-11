@@ -99,7 +99,7 @@ function MindARViewer(props) {
           />
           <a-gltf-model
             rotation="0 0 0 "
-            position="2 0 0"
+            position="0 0 0"
             scale="0.025 0.025 0.025"
             src="#boton"
           />
@@ -113,7 +113,7 @@ function MindARViewer(props) {
           />
           <a-gltf-model
             rotation="0 0 0 "
-            position="2 0 0"
+            position="0 0 0"
             scale="0.025 0.025 0.025"
             src="#boton"
           />
@@ -127,7 +127,7 @@ function MindARViewer(props) {
           />
           <a-gltf-model
             rotation="0 0 0 "
-            position="2 0 0"
+            position="0 0 0"
             scale="0.025 0.025 0.025"
             src="#boton"
           />
@@ -141,7 +141,7 @@ function MindARViewer(props) {
           />
           <a-gltf-model
             rotation="0 0 0 "
-            position="2 0 0"
+            position="0 0 0"
             scale="0.025 0.025 0.025"
             src="#boton"
           />
@@ -155,7 +155,7 @@ function MindARViewer(props) {
           />
           <a-gltf-model
             rotation="0 0 0 "
-            position="2 0 0"
+            position="0 0 0"
             scale="0.025 0.025 0.025"
             src="#boton"
           />
