@@ -19,7 +19,7 @@ function MindARViewer(props) {
   return (
     <>
       <div id="example-scanning-overlay" className="hidden">
-        <Loading type="points" />
+        <Loading type="points" />Cargando
       </div>
       <a-scene
         mindar-image="uiLoading: #example-scanning-overlay;uiScanning: no; imageTargetSrc: ./targets.mind"
