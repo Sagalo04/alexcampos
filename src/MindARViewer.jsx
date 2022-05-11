@@ -141,7 +141,7 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
-          <a-cylinder position="1 0.75 -3" radius="0.5" height="0.1"  material="shader: flat; src: #boton"></a-cylinder>
+          <a-cylinder position="0 0 0" rotation="0 0 0 " radius="0.15" height="0.01"  material="shader: flat; src: #boton"></a-cylinder>
         </a-entity>
       </a-scene>
     </>
