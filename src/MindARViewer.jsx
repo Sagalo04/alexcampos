@@ -38,7 +38,7 @@ function MindARViewer(props) {
     });
   }, []);
 
-  const URL2 = process.env.PUBLIC_URL + "Models/scenefinal.gltf";
+  const URL2 = process.env.PUBLIC_URL + "Models/scene4.gltf";
   const URL3 = process.env.PUBLIC_URL + "Models/button.glb";
 
   const cilinder = (
@@ -47,7 +47,7 @@ function MindARViewer(props) {
       ref={sceneRef1}
       rotation="0 0 0 "
       position="0 -1.1 0"
-      scale="0.025 0.025 0.025"
+      scale="0.04 0.04 0.04"
       src="#boton"
     />
   );
@@ -58,7 +58,7 @@ function MindARViewer(props) {
       ref={sceneRef2}
       rotation="0 0 0 "
       position="0 -1.1 0"
-      scale="0.025 0.025 0.025"
+      scale="0.04 0.04 0.04"
       src="#boton"
     />
   );
@@ -69,7 +69,7 @@ function MindARViewer(props) {
       ref={sceneRef3}
       rotation="0 0 0 "
       position="0 -1.1 0"
-      scale="0.025 0.025 0.025"
+      scale="0.04 0.04 0.04"
       src="#boton"
     />
   );
@@ -80,7 +80,7 @@ function MindARViewer(props) {
       ref={sceneRef4}
       rotation="0 0 0 "
       position="0 -1.1 0"
-      scale="0.025 0.025 0.025"
+      scale="0.04 0.04 0.04"
       src="#boton"
     />
   );
@@ -91,7 +91,7 @@ function MindARViewer(props) {
       ref={sceneRef5}
       rotation="0 0 0 "
       position="0 -1.1 0"
-      scale="0.025 0.025 0.025"
+      scale="0.04 0.04 0.04"
       src="#boton"
     />
   );
@@ -102,7 +102,7 @@ function MindARViewer(props) {
       ref={sceneRef6}
       rotation="0 0 0 "
       position="0 -1.1 0"
-      scale="0.025 0.025 0.025"
+      scale="0.04 0.04 0.04"
       src="#boton"
     />
   );
@@ -132,7 +132,7 @@ function MindARViewer(props) {
           <a-gltf-model
             rotation="0 0 0 "
             position="0 -0.25 0"
-            scale="0.025 0.025 0.025"
+            scale="0.04 0.04 0.04"
             src="#bearModel"
           />
           {cilinder}
@@ -141,7 +141,7 @@ function MindARViewer(props) {
           <a-gltf-model
             rotation="0 0 0 "
             position="0 -0.25 0"
-            scale="0.025 0.025 0.025"
+            scale="0.04 0.04 0.04"
             src="#bearModel"
           />
           {cilinder1}
@@ -150,7 +150,7 @@ function MindARViewer(props) {
           <a-gltf-model
             rotation="0 0 0 "
             position="0 -0.25 0"
-            scale="0.025 0.025 0.025"
+            scale="0.04 0.04 0.04"
             src="#bearModel"
           />
           {cilinder2}
@@ -159,7 +159,7 @@ function MindARViewer(props) {
           <a-gltf-model
             rotation="0 0 0 "
             position="0 -0.25 0"
-            scale="0.025 0.025 0.025"
+            scale="0.04 0.04 0.04"
             src="#bearModel"
           />
           {cilinder3}
@@ -168,7 +168,7 @@ function MindARViewer(props) {
           <a-gltf-model
             rotation="0 0 0 "
             position="0 -0.25 0"
-            scale="0.025 0.025 0.025"
+            scale="0.04 0.04 0.04"
             src="#bearModel"
           />
           {cilinder4}
@@ -177,7 +177,7 @@ function MindARViewer(props) {
           <a-gltf-model
             rotation="0 0 0 "
             position="0 -0.25 0"
-            scale="0.025 0.025 0.025"
+            scale="0.04 0.04 0.04"
             src="#bearModel"
           />
           {cilinder5}
