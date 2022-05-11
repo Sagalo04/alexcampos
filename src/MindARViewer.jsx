@@ -38,7 +38,7 @@ function MindARViewer(props) {
     });
   }, []);
 
-  const URL2 = process.env.PUBLIC_URL + "Models/sep.glb";
+  const URL2 = process.env.PUBLIC_URL + "Models/scenefinal.gltf";
   const URL3 = process.env.PUBLIC_URL + "Models/button.glb";
 
   const cilinder = (
@@ -136,12 +136,6 @@ function MindARViewer(props) {
             src="#bearModel"
           />
           {cilinder}
-          {/* <a-gltf-model
-            rotation="0 0 0 "
-            position="0 -1.1 0"
-            scale="0.025 0.025 0.025"
-            src="#boton"
-          /> */}
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 1">
           <a-gltf-model
