@@ -46,7 +46,7 @@ function MindARViewer(props) {
       class="clickable"
       ref={sceneRef1}
       rotation="0 0 0 "
-      position="0 -1.1 0"
+      position="0 -1.6 0"
       scale="0.04 0.04 0.04"
       src="#boton"
     />
@@ -57,7 +57,7 @@ function MindARViewer(props) {
       class="clickable"
       ref={sceneRef2}
       rotation="0 0 0 "
-      position="0 -1.1 0"
+      position="0 -1.6 0"
       scale="0.04 0.04 0.04"
       src="#boton"
     />
@@ -68,7 +68,7 @@ function MindARViewer(props) {
       class="clickable"
       ref={sceneRef3}
       rotation="0 0 0 "
-      position="0 -1.1 0"
+      position="0 -1.6 0"
       scale="0.04 0.04 0.04"
       src="#boton"
     />
@@ -79,7 +79,7 @@ function MindARViewer(props) {
       class="clickable"
       ref={sceneRef4}
       rotation="0 0 0 "
-      position="0 -1.1 0"
+      position="0 -1.6 0"
       scale="0.04 0.04 0.04"
       src="#boton"
     />
@@ -90,7 +90,7 @@ function MindARViewer(props) {
       class="clickable"
       ref={sceneRef5}
       rotation="0 0 0 "
-      position="0 -1.1 0"
+      position="0 -1.6 0"
       scale="0.04 0.04 0.04"
       src="#boton"
     />
@@ -101,7 +101,7 @@ function MindARViewer(props) {
       class="clickable"
       ref={sceneRef6}
       rotation="0 0 0 "
-      position="0 -1.1 0"
+      position="0 -1.6 0"
       scale="0.04 0.04 0.04"
       src="#boton"
     />
