@@ -67,13 +67,13 @@ function MindARViewer(props) {
       <div id="example-scanning-overlay" className="hidden">
         <Loading type="points" />
       </div>
-      {isBtn ? (
+      {/* {isBtn ? (
         <div className="buttonContainer">
           <Link href="https://facebook.com">
             <img src={boton} alt="" style={{ height: "85px" }} />
           </Link>
         </div>
-      ) : null}
+      ) : null} */}
 
       <a-scene
         mindar-image="uiLoading: #example-scanning-overlay;uiScanning: no; imageTargetSrc: ./targets.mind"
@@ -84,6 +84,7 @@ function MindARViewer(props) {
       >
         <a-assets>
           <a-asset-item id="bearModel" src={URL2}></a-asset-item>
+          <a-asset-item id="boton" src={boton}></a-asset-item>
         </a-assets>
 
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -95,6 +96,7 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
+          <a-cylinder position="1 0.75 -3" radius="0.5" height="0.1"  material="shader: flat; src: #boton"></a-cylinder>
         </a-entity>
         <a-entity ref={sceneRef2} mindar-image-target="targetIndex: 1">
           <a-gltf-model
@@ -103,6 +105,7 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
+          <a-cylinder position="1 0.75 -3" radius="0.5" height="0.1"  material="shader: flat; src: #boton"></a-cylinder>
         </a-entity>
         <a-entity ref={sceneRef3} mindar-image-target="targetIndex: 2">
           <a-gltf-model
@@ -111,6 +114,7 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
+          <a-cylinder position="1 0.75 -3" radius="0.5" height="0.1"  material="shader: flat; src: #boton"></a-cylinder>
         </a-entity>
         <a-entity ref={sceneRef4} mindar-image-target="targetIndex: 3">
           <a-gltf-model
@@ -119,6 +123,7 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
+          <a-cylinder position="1 0.75 -3" radius="0.5" height="0.1"  material="shader: flat; src: #boton"></a-cylinder>
         </a-entity>
         <a-entity ref={sceneRef5} mindar-image-target="targetIndex: 4">
           <a-gltf-model
@@ -127,6 +132,7 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
+          <a-cylinder position="1 0.75 -3" radius="0.5" height="0.1"  material="shader: flat; src: #boton"></a-cylinder>
         </a-entity>
         <a-entity ref={sceneRef6} mindar-image-target="targetIndex: 5">
           <a-gltf-model
@@ -135,6 +141,7 @@ function MindARViewer(props) {
             scale="0.025 0.025 0.025"
             src="#bearModel"
           />
+          <a-cylinder position="1 0.75 -3" radius="0.5" height="0.1"  material="shader: flat; src: #boton"></a-cylinder>
         </a-entity>
       </a-scene>
     </>
