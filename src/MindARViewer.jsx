@@ -58,7 +58,6 @@ function MindARViewer(props) {
     <>
       <div id="example-scanning-overlay" className="hidden">
         <Loading type="points" />
-        Cargando
       </div>
       {isBtn ? (
         <div className="buttonContainer">
