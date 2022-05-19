@@ -43,7 +43,7 @@ function MindARViewer(props) {
           <ModelAR targetIndex={el} key={el}/>
         ))}
       </a-scene>
-      <a-scene
+      {/* <a-scene
         mindar-image="uiLoading: #example-scanning-overlay;uiScanning: no; imageTargetSrc: ./targets.mind"
         cursor="fuse: false; rayOrigin: mouse;"
         // eslint-disable-next-line no-template-curly-in-string
@@ -62,7 +62,7 @@ function MindARViewer(props) {
         {arrayTarget.map((el) => (
           <ModelAR targetIndex={el} key={el}/>
         ))}
-      </a-scene>
+      </a-scene> */}
     </>
   );
 }
