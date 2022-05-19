@@ -18,14 +18,14 @@ function ModelAR({ targetIndex }) {
         scale="0.025 0.025 0.025"
         src="#bearModel"
       />
-      <a-text value="Jesús te trae" scale="2 2 1" position="-2 2 -4"></a-text>
-      <a-text value="AGUA VIVA" scale="2 2 1" position="-2 2 -4"></a-text>
+      <a-text value="Jesús te trae" font="Roboto-Medium-msdf.json" scale="0.32 0.32 0.32" position="-0.2 -0.45 0.1" negate="false"></a-text>
+      <a-text value="AGUA VIVA" font="Roboto-Medium-msdf.json" scale="0.32 0.32 0.32" position="-0.18 -0.55 0.1" negate="false"></a-text>
       <a-gltf-model
         class="clickable"
         ref={sceneRef1}
         rotation="0 0 0 "
-        position="0 -1.1 0"
-        scale="0.025 0.025 0.025"
+        position="0 -0.9 0.1"
+        scale="0.035 0.035 0.035"
         src="#boton"
       />
     </a-entity>
