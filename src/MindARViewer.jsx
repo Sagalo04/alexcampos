@@ -8,7 +8,7 @@ function MindARViewer(props) {
 
   useState(() => {
     let array = [];
-    for (let i = 0; i < 11; i++) {
+    for (let i = 0; i < 12; i++) {
       const element = "targetIndex: " + i;
       array.push(element);
     }
@@ -24,7 +24,7 @@ function MindARViewer(props) {
         <Loading type="points" />
       </div>
       <a-scene
-        mindar-image="uiLoading: #example-scanning-overlay;uiScanning: no; imageTargetSrc: ./targets2.mind"
+        mindar-image="uiLoading: #example-scanning-overlay;uiScanning: no; imageTargetSrc: ./targets3.mind"
         cursor="fuse: false; rayOrigin: mouse;"
         // eslint-disable-next-line no-template-curly-in-string
         raycaster="far: ${customFields.libVersion}; objects: .clickable"
