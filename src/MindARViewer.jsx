@@ -24,7 +24,7 @@ function MindARViewer(props) {
         <Loading type="points" />
       </div>
       <a-scene
-        mindar-image="uiLoading: #example-scanning-overlay;uiScanning: no; imageTargetSrc: ./targets.mind"
+        mindar-image="uiLoading: #example-scanning-overlay;uiScanning: no; imageTargetSrc: ./targets121.mind"
         cursor="fuse: false; rayOrigin: mouse;"
         // eslint-disable-next-line no-template-curly-in-string
         raycaster="far: ${customFields.libVersion}; objects: .clickable"
