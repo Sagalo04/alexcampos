@@ -8,7 +8,7 @@ function MindARViewer(props) {
 
   useState(() => {
     let array = [];
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 120; i++) {
       const element = "targetIndex: " + i;
       array.push(element);
     }
