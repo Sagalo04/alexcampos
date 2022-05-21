@@ -15,7 +15,7 @@ function MindARViewer(props) {
     setArrayTarget(array);
   }, []);
 
-  const URL2 = process.env.PUBLIC_URL + "Models/scenefinal.gltf";
+  const URL2 = process.env.PUBLIC_URL + "Models/sceneR.gltf";
   const URL3 = process.env.PUBLIC_URL + "Models/boton.glb";
 
   return (
